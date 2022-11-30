@@ -16,6 +16,30 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+  <id>Project1</id>
+  <url>https://pkgs.dev.azure.com/amaravativarun0394/f9e872ac-1ef0-4883-b9eb-cc611f58fb55/_packaging/Project1/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+    </repositories>
+  <distributionManagement>
+    <repository>
+  <id>Project1</id>
+  <url>https://pkgs.dev.azure.com/amaravativarun0394/f9e872ac-1ef0-4883-b9eb-cc611f58fb55/_packaging/Project1/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+    </distributionManagement>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
